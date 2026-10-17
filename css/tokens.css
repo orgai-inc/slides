@@ -1,0 +1,14 @@
+:root {
+  --slide-width: 1980px;
+  --slide-height: 1080px;
+  --stage-bg: #071018;
+  --paper: #f8f8f8;
+  --ink: #17417c;
+  --ink-soft: rgba(23, 65, 124, 0.8);
+  --navy: #003752;
+  --navy-deep: #17327c;
+  --line: rgba(23, 65, 124, 0.35);
+  --card: #ffffff;
+  --serif: "Times New Roman", Times, serif;
+  --sans: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", sans-serif;
+}
