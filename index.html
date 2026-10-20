@@ -6,9 +6,9 @@
     <title>株式会社オーガイ｜会社説明資料</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700;800&family=Shippori+Mincho:wght@700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/tokens.css" />
-    <link rel="stylesheet" href="css/deck.css" />
+    <link rel="stylesheet" href="css/deck.css?v=20261022b" />
   </head>
   <body>
     <main class="deck">
@@ -130,22 +130,28 @@
             <header class="topbar"><span class="chap-no">01</span><span class="chap-name">会社概要</span><span class="chap-rule"></span></header>
             <h2 class="section-title">チーム</h2>
             <article class="member member-a">
-              <span class="member-back"></span>
               <div class="member-card">
                 <p class="role">代表取締役 CEO</p>
                 <h3>山田<span>魁</span></h3>
                 <p class="roma">Yamada<span>kai</span></p>
-                <p class="bio">大学時代にベンチャーキャピタル「SAMURAI INCUBATE」でインターンを経験。その後、宇宙スタートアップ「ElevationSpace」に3人目の創業メンバーとして参画し、創業当初3人だったチームを約1年半で30人規模まで拡大。大手IT企業でエンジニアとして勤務したのち独立し、AIチャットボットの開発などに携わる。現在は約12名のチームを率いながら事業を展開している。</p>
+                <p class="bio">
+                  大学時代にベンチャーキャピタル「SAMURAI INCUBATE」でインターンを経験。<br /><br />
+                  その後、宇宙スタートアップ「ElevationSpace」に3人目の創業メンバーとして参画し、創業当初3人だったチームを約1年半で30人規模まで拡大。<br /><br />
+                  大手IT企業でエンジニアとして勤務したのち独立し、AIチャットボットの開発などに携わる。現在は約12名のチームを率いながら事業を展開している。
+                </p>
               </div>
               <img class="member-photo" src="assets/yamada.png" alt="山田魁" />
             </article>
             <article class="member member-b">
-              <span class="member-back"></span>
               <div class="member-card">
                 <p class="role">弁護士 / リーガルアドバイザー</p>
                 <h3>橋本<span>祐弥</span></h3>
                 <p class="roma">Hashimoto<span>Yuya</span></p>
-                <p class="bio">森・濱田松本法律事務所を退職後、個人事務所を立ち上げ独立し、弁護士業務に従事。弁護士資格と弁護士業界での深いネットワークから士業の問題を深く捉え、法律実務の現場を知り尽くした製品設計能力を強みとする。2025年10月に株式会社SamurAI DXを山田魁とともに共同創業。慶應義塾大学法学部卒、同大学院法学研究科中退。2020年12月東京弁護士会弁護士登録。</p>
+                <p class="bio">
+                  森・濱田松本法律事務所を退職後、個人事務所を立ち上げ独立し、弁護士業務に従事。<br /><br />
+                  弁護士資格と弁護士業界での深いネットワークから士業の問題を深く捉え、法律実務の現場を知り尽くした製品設計能力を強みとする。<br /><br />
+                  2025年10月に株式会社SamurAI DXを山田魁とともに共同創業。慶應義塾大学法学部卒、同大学院法学研究科中退。2020年12月東京弁護士会弁護士登録。
+                </p>
               </div>
               <img class="member-photo" src="assets/hashimoto.png" alt="橋本祐弥" />
             </article>
@@ -171,87 +177,110 @@
           </footer>
         </section>
 
-        <section class="slide">
+        <section class="slide slide-issue">
+          <div class="issue-backdrop" aria-hidden="true">
+            <div class="issue-backdrop-half">
+              <img src="assets/issue-labor.jpg" alt="" />
+            </div>
+            <div class="issue-backdrop-half">
+              <img src="assets/issue-cost.jpg" alt="" />
+            </div>
+            <div class="issue-backdrop-veil"></div>
+          </div>
           <div class="slide-sheet">
             <header class="topbar"><span class="chap-no">02</span><span class="chap-name">課題と現状</span><span class="chap-rule"></span></header>
-            <div class="body dense-body">
+            <div class="body issue-body">
               <h2 class="section-title">課題</h2>
-              <p class="dense-lead">現場は、人を集められない。集まるほど、荷下ろしの単価は上がっていく。</p>
+              <p class="lead">現場に人が集まらず、荷下ろしの単価は上がっていく。</p>
               <div class="issue-grid">
                 <article class="issue">
-                  <div class="issue-head">
-                    <span class="issue-no">01</span>
-                    <h3>ブルーカラーの<br />働き手が足りない</h3>
-                  </div>
-                  <p>若者がブルーワークに就きたがらず、現場は「そもそも人が来ない」状態にある。募集を続けても、荷下ろしの列は埋まらない。</p>
+                  <h3 class="issue-title">
+                    <span class="zabuton zabuton-sm"><span>ブルーカラーの働き手が</span></span>
+                    <span class="zabuton zabuton-sm"><span>足りない</span></span>
+                  </h3>
                   <ul>
-                    <li><strong>作業の条件</strong>重い、単純、有資格者が足りない。人が集まりにくい工程が残っている。</li>
-                    <li><strong>スポットで埋めても</strong>本人の時給は1,378円。請求は2,000円を超え、欠勤と品質のばらつきが残る。</li>
-                    <li><strong>現場の前提</strong>「今日、人が来るか」が毎日の運営条件になっている。</li>
+                    <li>
+                      <span class="issue-icon" aria-hidden="true">
+                        <svg viewBox="0 0 32 32" fill="none"><path d="M8 22V12l8-5 8 5v10" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 22v-6h8v6" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="16" cy="14" r="1.6" fill="currentColor"/></svg>
+                      </span>
+                      <span>重い・単純・有資格者不足。人が集まりにくい工程が残っている。</span>
+                    </li>
+                    <li>
+                      <span class="issue-icon" aria-hidden="true">
+                        <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="10" stroke="currentColor" stroke-width="1.8"/><path d="M16 9v14M12.5 12.5c1-.9 2.2-1.4 3.5-1.4 2.2 0 3.8 1.2 3.8 3.1S18.2 17 16 17s-3.8 1-3.8 3.1c0 1.9 1.7 3.1 3.8 3.1 1.3 0 2.5-.5 3.5-1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                      </span>
+                      <span>スポットでも時給1,378円、請求は2,000円超。欠勤と品質のばらつきが残る。</span>
+                    </li>
+                    <li>
+                      <span class="issue-icon" aria-hidden="true">
+                        <svg viewBox="0 0 32 32" fill="none"><rect x="7" y="9" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M7 14h18M12 7v4M20 7v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M12 19h2.5M17.5 19H20M12 22.5h2.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                      </span>
+                      <span>「今日、人が来るか」が、毎日の運営条件になっている。</span>
+                    </li>
                   </ul>
                 </article>
                 <article class="issue">
-                  <div class="issue-head">
-                    <span class="issue-no">02</span>
-                    <h3>荷下ろしの人件費が<br />毎年上がり続ける構造</h3>
-                  </div>
-                  <p>人が来ないほど単価は上がり、そのコストは毎年の見積に織り込まれていく。人を送り続ける限り、構造は変わらない。</p>
+                  <h3 class="issue-title">
+                    <span class="zabuton zabuton-sm"><span>荷下ろしの人件費が</span></span>
+                    <span class="zabuton zabuton-sm"><span>毎年上がり続ける構造</span></span>
+                  </h3>
                   <ul>
-                    <li><strong>人力の請負</strong>荷下ろし代行は、400万円の据え置きが残っている。原価は人のまま。</li>
-                    <li><strong>ロボットを買う場合</strong>販売は2〜3千万円。導入できるのは、設備投資ができる大手に限られる。</li>
-                    <li><strong>残る現場</strong>中堅倉庫とD2Cの自社倉庫には、人を送る以外の選択肢がほとんどない。</li>
+                    <li>
+                      <span class="issue-icon" aria-hidden="true">
+                        <svg viewBox="0 0 32 32" fill="none"><path d="M7 22V12l4-3h6l2 3h6v10H7z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="22" r="2.2" stroke="currentColor" stroke-width="1.8"/><circle cx="22" cy="22" r="2.2" stroke="currentColor" stroke-width="1.8"/><path d="M14.5 15h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                      </span>
+                      <span>荷下ろし代行は400万円据え置き。原価は人のまま。</span>
+                    </li>
+                    <li>
+                      <span class="issue-icon" aria-hidden="true">
+                        <svg viewBox="0 0 32 32" fill="none"><rect x="8" y="14" width="12" height="9" rx="1.5" stroke="currentColor" stroke-width="1.8"/><path d="M11 14V11h6v3M20 17h4l2 3v3h-6" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12.5" cy="25.5" r="1.6" fill="currentColor"/><circle cx="23.5" cy="25.5" r="1.6" fill="currentColor"/></svg>
+                      </span>
+                      <span>ロボット購入は2〜3千万円。設備投資できる大手に限られる。</span>
+                    </li>
+                    <li>
+                      <span class="issue-icon" aria-hidden="true">
+                        <svg viewBox="0 0 32 32" fill="none"><path d="M6 24V12l10-5 10 5v12" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 24v-7h8v7M6 24h20" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M14.5 13.5h3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                      </span>
+                      <span>中堅倉庫・D2C自社倉庫には、人を送る以外の選択肢がほぼない。</span>
+                    </li>
                   </ul>
                 </article>
               </div>
-              <p class="issue-bar">足りないのは人手だけではない。人件費が上がり続ける構造のまま、現場が置かれている。</p>
             </div>
             <footer class="foot">
-              <img class="logo" src="assets/logo.svg" alt="ORGAI" />
+              <img class="logo" src="assets/logo-white.svg" alt="ORGAI" />
               <div class="foot-meta"><span class="copy">© 2026 ORGAI, Inc.</span><span class="page">07</span></div>
             </footer>
           </div>
         </section>
 
-        <section class="slide">
+        <section class="slide slide-appeal">
+          <div class="appeal-band" aria-hidden="true"></div>
           <div class="slide-sheet">
             <header class="topbar"><span class="chap-no">02</span><span class="chap-name">課題と現状</span><span class="chap-rule"></span></header>
-            <div class="body dense-body">
+            <div class="body appeal-body">
               <h2 class="section-title">物流・荷下ろし業界の魅力</h2>
-              <p class="dense-lead">市場は大きく、作業は置き換えやすく、海外ではすでにロボットが荷下ろしを始めている。</p>
               <div class="appeal-grid">
                 <article class="appeal">
-                  <p class="appeal-kicker">01　市場</p>
-                  <p class="appeal-figure">2<span>兆円</span></p>
-                  <h3>マーケットサイズが<br />大きい</h3>
-                  <p>世界のデバンニング人件費は約2兆円。国内はそのうち約2,000億円。取りにいく10%でも、約200億円の範囲がある。</p>
-                  <ul>
-                    <li>対象はコンテナ荷下ろしと、その先の構内フォークリフト。</li>
-                    <li>工程を広げすぎず、同じ現場の中で深く入る。</li>
-                  </ul>
-                </article>
-                <article class="appeal">
-                  <p class="appeal-kicker">02　作業</p>
-                  <div class="trait-row">
-                    <span>重い</span>
-                    <span>単純</span>
-                    <span>有資格者不足</span>
+                  <div class="appeal-visual">
+                    <img src="assets/appeal-market.jpg" alt="" />
                   </div>
-                  <h3>ロボットで業務を<br />代替しやすい</h3>
-                  <p>人が集まりにくい条件が、そのまま揃っている。定型に近く、重い。有資格者を待ち続ける工程ほど、ロボットに置き換えやすい。</p>
-                  <ul>
-                    <li>まずコンテナ荷下ろしで、現場データとオペレーションを貯める。</li>
-                    <li>同じ顧客の構内フォークリフトへ、次に広げる。</li>
-                  </ul>
+                  <h3 class="appeal-title">マーケットサイズが<br />大きい</h3>
+                  <p class="appeal-text">デバンニング人件費は世界で約2兆円、国内約2,000億円。10%の約200億円を、荷下ろしと構内フォークで取りにいく。</p>
                 </article>
                 <article class="appeal">
-                  <p class="appeal-kicker">03　先行</p>
-                  <h3>海外での先行事例が<br />多数ある</h3>
-                  <ul class="case-list">
-                    <li><strong>Pickle Robot</strong>UPS 400台・$120M。郵船ロジへRaaSを導入。</li>
-                    <li><strong>Boston Dynamics</strong>Stretch。DHLと最大1,000台のMOU。</li>
-                    <li><strong>国内のロボット</strong>Mujin、川崎重工、XYZ Roboticsは販売モデル。</li>
-                  </ul>
-                  <p class="appeal-foot">国内は「人を送る」か「ロボットを売る」。時給で代行する枠が空いている。</p>
+                  <div class="appeal-visual">
+                    <img src="assets/appeal-labor.jpg" alt="" />
+                  </div>
+                  <h3 class="appeal-title">ロボットで業務を<br />代替しやすい</h3>
+                  <p class="appeal-text">人が集まりにくい条件はそのまま置換条件になり、荷下ろしのあと構内フォークリフトへ広げられる。</p>
+                </article>
+                <article class="appeal">
+                  <div class="appeal-visual">
+                    <img src="assets/appeal-robot.jpg" alt="" />
+                  </div>
+                  <h3 class="appeal-title">海外での先行事例が<br />多数ある</h3>
+                  <p class="appeal-text">Pickle RobotのUPS 400台やBoston DynamicsのDHL 1,000台に続き、国内は販売中心で時給代行の枠が空いている。</p>
                 </article>
               </div>
             </div>
@@ -279,13 +308,24 @@
         <section class="slide">
           <div class="slide-sheet">
             <header class="topbar"><span class="chap-no">03</span><span class="chap-name">解決策</span><span class="chap-rule"></span></header>
-            <div class="body">
+            <div class="body body-solution">
               <div class="solution">
-                <div>
-                  <p class="lead lead-lg">荷下ろしロボットの派遣。<br />時間単価 1,000 円で顧客にロボットを貸し出す。</p>
-                  <p class="support">顧客が買うのはロボットではない。荷下ろしが終わること。<br />単価は時間。1,000円で、現場にロボットを出す。</p>
+                <div class="solution-copy">
+                  <h2 class="solution-title">
+                    <span class="zabuton"><span>荷下ろしロボットの派遣。</span></span>
+                    <span class="zabuton"><span>時間単価 1,000 円で顧客に</span></span>
+                    <span class="zabuton"><span>ロボットを貸し出す。</span></span>
+                  </h2>
+                  <p class="support">
+                    顧客が買うのはロボットではない。荷下ろしが終わること。<br />
+                    単価は時間。1,000円で、現場にロボットを出す。<br /><br />
+                    設備投資は不要。必要なときだけ呼び出せる派遣型だから、中堅倉庫でも導入できる。<br />
+                    人が足りない工程を、ロボットの稼働時間で埋めていく。
+                  </p>
                 </div>
-                <img class="solution-photo" src="assets/forklift.png" alt="荷下ろしをするフォークリフト" />
+                <div class="solution-visual">
+                  <img class="solution-photo" src="assets/forklift.png" alt="荷下ろしをするフォークリフト" />
+                </div>
               </div>
             </div>
             <footer class="foot">
@@ -298,20 +338,150 @@
         <section class="slide">
           <div class="slide-sheet">
             <header class="topbar"><span class="chap-no">03</span><span class="chap-name">解決策</span><span class="chap-rule"></span></header>
-            <div class="body">
+            <div class="body target-body">
               <h2 class="section-title">ターゲット業務</h2>
-              <p class="lead">コンテナ荷下ろし（デバンニング）と<br />フォークリフト作業の 2 工程に絞る</p>
-              <div class="flow">
-                <article class="card">
-                  <p class="step-no">1</p>
-                  <h3>コンテナ荷下ろし</h3>
-                  <p>重い・単純・有資格者が足りない。現場データとオペレーションを貯める。</p>
+              <p class="lead">コンテナ荷下ろしと、構内フォークリフトの2工程に絞る。</p>
+              <div class="target-flow">
+                <article class="target-card">
+                  <header class="target-head">
+                    <span class="target-step">01</span>
+                    <div class="target-copy">
+                      <h3>コンテナ荷下ろし</h3>
+                      <p>重い・単純・有資格者が足りない工程から入る。現場データとオペレーションを貯める。</p>
+                    </div>
+                  </header>
+                  <ol class="op-flow">
+                    <li>
+                      <div class="op-scene" aria-hidden="true">
+                        <svg viewBox="0 0 128 96" fill="none">
+                          <rect x="6" y="22" width="34" height="52" rx="2" fill="#17417c"/>
+                          <rect x="14" y="32" width="16" height="18" rx="1" fill="#f4f7fb"/>
+                          <path d="M6 74h116" stroke="#17417c" stroke-width="2" stroke-linecap="round"/>
+                          <rect x="46" y="34" width="58" height="32" rx="2" fill="#9eb8d8"/>
+                          <path d="M50 38h22v24H50V38z" fill="#fff" opacity="0.55"/>
+                          <path d="M104 42h16v24h-16V42z" fill="#17417c"/>
+                          <path d="M108 46h8v8h-8V46z" fill="#f4f7fb"/>
+                          <circle cx="62" cy="72" r="6" fill="#17417c"/>
+                          <circle cx="92" cy="72" r="6" fill="#17417c"/>
+                          <circle cx="62" cy="72" r="2.2" fill="#f4f7fb"/>
+                          <circle cx="92" cy="72" r="2.2" fill="#f4f7fb"/>
+                        </svg>
+                      </div>
+                      <span>接車</span>
+                    </li>
+                    <li>
+                      <div class="op-scene" aria-hidden="true">
+                        <svg viewBox="0 0 128 96" fill="none">
+                          <path d="M18 18h62v62H18V18z" fill="#17417c"/>
+                          <path d="M80 22l26 16v42H80V22z" fill="#9eb8d8"/>
+                          <rect x="28" y="30" width="18" height="16" rx="1" fill="#f4f7fb"/>
+                          <rect x="50" y="30" width="18" height="16" rx="1" fill="#d5e2f0"/>
+                          <rect x="28" y="50" width="18" height="16" rx="1" fill="#d5e2f0"/>
+                          <rect x="50" y="50" width="18" height="16" rx="1" fill="#f4f7fb"/>
+                          <path d="M86 46h12M86 56h12M86 66h8" stroke="#17417c" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                      </div>
+                      <span>開扉</span>
+                    </li>
+                    <li>
+                      <div class="op-scene" aria-hidden="true">
+                        <svg viewBox="0 0 128 96" fill="none">
+                          <path d="M14 20h40v58H14V20z" fill="#17417c"/>
+                          <rect x="22" y="30" width="14" height="12" fill="#d5e2f0"/>
+                          <rect x="22" y="46" width="14" height="12" fill="#f4f7fb"/>
+                          <path d="M54 36h22v8H70l8 10v6H54V36z" fill="#9eb8d8"/>
+                          <path d="M76 40h18" stroke="#17417c" stroke-width="3" stroke-linecap="round"/>
+                          <rect x="78" y="58" width="36" height="8" rx="1" fill="#17417c"/>
+                          <rect x="86" y="48" width="20" height="12" rx="1" fill="#f4f7fb" stroke="#17417c" stroke-width="2"/>
+                          <path d="M18 78h96" stroke="#17417c" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                      </div>
+                      <span>荷下ろし</span>
+                    </li>
+                    <li>
+                      <div class="op-scene" aria-hidden="true">
+                        <svg viewBox="0 0 128 96" fill="none">
+                          <rect x="22" y="16" width="72" height="64" rx="6" fill="#17417c"/>
+                          <rect x="32" y="28" width="36" height="6" rx="2" fill="#f4f7fb"/>
+                          <rect x="32" y="40" width="52" height="6" rx="2" fill="#9eb8d8"/>
+                          <rect x="32" y="52" width="24" height="6" rx="2" fill="#d5e2f0"/>
+                          <path d="M78 62l8-14 8 8 10-16" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </div>
+                      <span>記録</span>
+                    </li>
+                  </ol>
                 </article>
-                <div class="flow-arrow">→</div>
-                <article class="card">
-                  <p class="step-no">2</p>
-                  <h3>構内フォークリフト</h3>
-                  <p>同一顧客の構内フォークリフト作業へ広げる。同じく重い・単純・有資格者不足。</p>
+                <div class="target-link" aria-hidden="true">
+                  <span>展開</span>
+                  <svg viewBox="0 0 48 48" fill="none">
+                    <path d="M14 24h18M24 16l8 8-8 8" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <article class="target-card">
+                  <header class="target-head">
+                    <span class="target-step">02</span>
+                    <div class="target-copy">
+                      <h3>構内フォークリフト</h3>
+                      <p>同じ顧客の構内作業へ広げる。こちらも重い・単純で、有資格者が足りない。</p>
+                    </div>
+                  </header>
+                  <ol class="op-flow">
+                    <li>
+                      <div class="op-scene" aria-hidden="true">
+                        <svg viewBox="0 0 128 96" fill="none">
+                          <rect x="28" y="28" width="34" height="22" rx="2" fill="#9eb8d8"/>
+                          <rect x="34" y="34" width="10" height="10" fill="#f4f7fb"/>
+                          <rect x="48" y="34" width="8" height="10" fill="#fff" opacity="0.7"/>
+                          <path d="M18 50h78" stroke="#17417c" stroke-width="4" stroke-linecap="round"/>
+                          <path d="M96 42v28" stroke="#17417c" stroke-width="6" stroke-linecap="round"/>
+                          <path d="M88 42h16" stroke="#17417c" stroke-width="4" stroke-linecap="round"/>
+                          <path d="M18 78h96" stroke="#17417c" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                      </div>
+                      <span>すくう</span>
+                    </li>
+                    <li>
+                      <div class="op-scene" aria-hidden="true">
+                        <svg viewBox="0 0 128 96" fill="none">
+                          <path d="M22 58h18l8-16h28v16h8" stroke="#17417c" stroke-width="3" stroke-linejoin="round"/>
+                          <rect x="48" y="34" width="26" height="16" rx="1" fill="#9eb8d8"/>
+                          <circle cx="36" cy="66" r="8" fill="#17417c"/>
+                          <circle cx="78" cy="66" r="8" fill="#17417c"/>
+                          <circle cx="36" cy="66" r="3" fill="#f4f7fb"/>
+                          <circle cx="78" cy="66" r="3" fill="#f4f7fb"/>
+                          <path d="M98 46h8M102 40v6M108 52h8M112 46v6" stroke="#9eb8d8" stroke-width="2" stroke-linecap="round"/>
+                          <path d="M16 80h96" stroke="#17417c" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                      </div>
+                      <span>運ぶ</span>
+                    </li>
+                    <li>
+                      <div class="op-scene" aria-hidden="true">
+                        <svg viewBox="0 0 128 96" fill="none">
+                          <path d="M24 22v56M104 22v56" stroke="#17417c" stroke-width="4" stroke-linecap="round"/>
+                          <path d="M24 36h80M24 58h80" stroke="#17417c" stroke-width="3" stroke-linecap="round"/>
+                          <rect x="36" y="24" width="22" height="12" rx="1" fill="#9eb8d8"/>
+                          <rect x="64" y="24" width="22" height="12" rx="1" fill="#d5e2f0"/>
+                          <rect x="40" y="42" width="28" height="14" rx="1" fill="#17417c"/>
+                          <path d="M18 78h96" stroke="#17417c" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                      </div>
+                      <span>棚入れ</span>
+                    </li>
+                    <li>
+                      <div class="op-scene" aria-hidden="true">
+                        <svg viewBox="0 0 128 96" fill="none">
+                          <rect x="14" y="28" width="36" height="40" rx="3" fill="#17417c"/>
+                          <path d="M22 38h20M22 48h14" stroke="#f4f7fb" stroke-width="2" stroke-linecap="round"/>
+                          <rect x="78" y="28" width="36" height="40" rx="3" fill="#9eb8d8"/>
+                          <path d="M86 38h20M86 48h14" stroke="#17417c" stroke-width="2" stroke-linecap="round"/>
+                          <path d="M52 48h24M68 40l8 8-8 8" stroke="#17417c" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </div>
+                      <span>広げる</span>
+                    </li>
+                  </ol>
                 </article>
               </div>
             </div>
@@ -325,26 +495,33 @@
         <section class="slide">
           <div class="slide-sheet">
             <header class="topbar"><span class="chap-no">03</span><span class="chap-name">解決策</span><span class="chap-rule"></span></header>
-            <div class="body">
+            <div class="body dispatch-body">
               <h2 class="section-title">派遣モデル</h2>
               <p class="lead">ロボットを時給 1,000 円で派遣する。</p>
               <div class="dispatch">
-                <table class="sheet-table">
-                  <thead><tr><th>項目</th><th>数値</th></tr></thead>
-                  <tbody>
-                    <tr><td>単価</td><td>時給 1,000 円</td></tr>
-                    <tr><td>稼働</td><td>8 時間 × 20 日 = 月 160 時間</td></tr>
-                    <tr><td>ロボット 1 体あたり</td><td>月 16 万円／年 192 万円</td></tr>
-                    <tr><td>1 拠点あたり 5 体</td><td>月 80 万円／年 960 万円</td></tr>
-                    <tr><td>人のオペレーション込み（1 拠点）</td><td>月 110 万円／年 1,320 万円</td></tr>
-                    <tr><td>1 社 20 拠点（100 体）</td><td>年 1.92 億円</td></tr>
-                  </tbody>
-                </table>
-                <aside class="navy-panel">
-                  <p class="navy-kicker">1 拠点 = ロボット 5 体</p>
-                  <strong>月 80 万円／年 960 万円</strong>
-                  <p>10 拠点で約 1 億円、100 拠点（5 社前後）で約 10 億円。</p>
-                  <p class="note" style="color:#fff">以降の試算はすべて時給 1,000 円 = ロボット 1 体あたり年 192 万円で統一している。</p>
+                <div class="dispatch-main">
+                  <table class="sheet-table">
+                    <tbody>
+                      <tr><td>単価</td><td>時給 1,000 円</td></tr>
+                      <tr><td>稼働</td><td>8 時間 × 20 日 = 月 160 時間</td></tr>
+                      <tr><td>ロボット 1 体あたり</td><td>月 16 万円／年 192 万円</td></tr>
+                      <tr><td>1 拠点あたり 5 体</td><td>月 80 万円／年 960 万円</td></tr>
+                      <tr><td>人のオペレーション込み（1 拠点）</td><td>月 110 万円／年 1,320 万円</td></tr>
+                      <tr><td>1 社 20 拠点（100 体）</td><td>年 1.92 億円</td></tr>
+                    </tbody>
+                  </table>
+                  <p class="note">以降の試算はすべて時給 1,000 円 = ロボット 1 体あたり年 192 万円で統一している。</p>
+                </div>
+                <aside class="dispatch-visual">
+                  <img src="assets/appeal-robot.jpg" alt="倉庫で稼働する産業用ロボット" />
+                  <div class="dispatch-caption">
+                    <p class="navy-kicker">1 拠点 = ロボット 5 体</p>
+                    <div class="dispatch-figures">
+                      <p><span>月</span><strong>80</strong><small>万円</small></p>
+                      <p><span>年</span><strong>960</strong><small>万円</small></p>
+                    </div>
+                    <p class="dispatch-scale">10 拠点で約 1 億円、100 拠点（5 社前後）で約 10 億円。</p>
+                  </div>
                 </aside>
               </div>
             </div>
@@ -372,21 +549,48 @@
         <section class="slide">
           <div class="slide-sheet">
             <header class="topbar"><span class="chap-no">04</span><span class="chap-name">ビジネスモデル</span><span class="chap-rule"></span></header>
-            <div class="body">
+            <div class="body market-body">
               <h2 class="section-title">市場規模</h2>
               <div class="market">
                 <div class="rings">
-                  <span class="ring-label tam-label">TAM<small>Total Addressable Market</small></span>
-                  <div class="ring-sam">
-                    <span class="ring-label sam-label">SAM<small>Serviceable Available Market</small></span>
-                    <div class="ring-som">SOM<small>Serviceable Obtainable Market</small></div>
-                  </div>
+                  <div class="ring ring-tam"><span>TAM</span></div>
+                  <div class="ring ring-sam"><span>SAM</span></div>
+                  <div class="ring ring-som"><span>SOM</span></div>
                 </div>
-                <ul class="bullets">
-                  <li>世界のデバンニング（コンテナ荷下ろし）人件費<br />約 2 兆円</li>
-                  <li>国内のデバンニング人件費<br />約 2,000 億円</li>
-                  <li>SAM の 10%<br />約 200 億円</li>
-                </ul>
+                <svg class="market-lines" viewBox="0 0 1600 800" aria-hidden="true">
+                  <g class="line-tam">
+                    <line x1="512" y1="116" x2="892" y2="116" />
+                    <circle cx="512" cy="116" r="5.5" />
+                    <circle cx="892" cy="116" r="5.5" />
+                  </g>
+                  <g class="line-sam">
+                    <line x1="487" y1="388" x2="892" y2="388" />
+                    <circle cx="487" cy="388" r="5.5" />
+                    <circle cx="892" cy="388" r="5.5" />
+                  </g>
+                  <g class="line-som">
+                    <line x1="423" y1="660" x2="892" y2="660" />
+                    <circle cx="423" cy="660" r="5.5" />
+                    <circle cx="892" cy="660" r="5.5" />
+                  </g>
+                </svg>
+                <ol class="market-keys">
+                  <li class="key-tam">
+                    <p class="mkt-kicker">TAM</p>
+                    <p class="mkt-desc">世界のデバンニング（コンテナ荷下ろし）人件費</p>
+                    <p class="mkt-fig"><span class="approx">約</span><strong>2</strong><span class="unit">兆円</span></p>
+                  </li>
+                  <li class="key-sam">
+                    <p class="mkt-kicker">SAM</p>
+                    <p class="mkt-desc">国内のデバンニング人件費</p>
+                    <p class="mkt-fig"><span class="approx">約</span><strong>2,000</strong><span class="unit">億円</span></p>
+                  </li>
+                  <li class="key-som">
+                    <p class="mkt-kicker">SOM</p>
+                    <p class="mkt-desc">SAM の 10%</p>
+                    <p class="mkt-fig"><span class="approx">約</span><strong>200</strong><span class="unit">億円</span></p>
+                  </li>
+                </ol>
               </div>
             </div>
             <footer class="foot">
@@ -399,10 +603,16 @@
         <section class="slide">
           <div class="slide-sheet">
             <header class="topbar"><span class="chap-no">04</span><span class="chap-name">ビジネスモデル</span><span class="chap-rule"></span></header>
-            <div class="body">
+            <div class="body compete-body">
               <h2 class="section-title">競合と差別化</h2>
               <p class="sublead">国内は「人を送る」か「ロボットを売る」の二択で、海外で主流の RaaS（従量課金でロボットが荷下ろしを代行する）モデルが空白。</p>
               <table class="sheet-table">
+                <colgroup>
+                  <col class="col-cat" />
+                  <col class="col-player" />
+                  <col class="col-price" />
+                  <col class="col-why" />
+                </colgroup>
                 <thead>
                   <tr><th>カテゴリ</th><th>主なプレイヤー</th><th>売り方</th><th>当社が勝てる理由</th></tr>
                 </thead>
@@ -433,7 +643,7 @@
                   </tr>
                 </tbody>
               </table>
-              <p class="note">当社の位置は「海外 RaaS のモデル」×「国内人力代行の売り方」。ロボットを売らず時給 1,000 円で成果を売る。国内ロボット導入は大手物流（上組・西濃運輸・丸紅ロジ・ロジスティード）に集中し、中堅倉庫・D2C 自社倉庫は人力代行しか選択肢がない。三菱商事 Roboware の物流ロボットレンタルは月 17〜24 万円/台。当社は月 16 万円で、オペレーション込み。国内フィジカル AI スタートアップ（atom 等）とは、荷下ろし代行 BPO という事業定義そのものが違う。</p>
+              <p class="compete-note">当社の位置は「海外 RaaS のモデル」×「国内人力代行の売り方」。ロボットを売らず時給 1,000 円で成果を売る。国内ロボット導入は大手物流（上組・西濃運輸・丸紅ロジ・ロジスティード）に集中し、中堅倉庫・D2C 自社倉庫は人力代行しか選択肢がない。三菱商事 Roboware の物流ロボットレンタルは月 17〜24 万円/台。当社は月 16 万円で、オペレーション込み。国内フィジカル AI スタートアップ（atom 等）とは、荷下ろし代行 BPO という事業定義そのものが違う。</p>
             </div>
             <footer class="foot">
               <img class="logo" src="assets/logo.svg" alt="ORGAI" />
@@ -459,7 +669,7 @@
                     <p>介入ログを学習に回すほど自律率が上がる。1人が見られる台数が増えると原価が下がる。粗利 19% から 50% を埋めるのは値上げではなくデータ。</p>
                   </article>
                   <article class="card">
-                    <h3>なぜ他社が持てないか</h3>
+                    <h3>なぜ他社が<br />持てないか</h3>
                     <p>売り切りモデルは納品先の稼働データが手元に残らない。時給課金で自社がロボットを保有し続けるからこそデータが溜まる。</p>
                   </article>
                   <article class="card">
@@ -468,10 +678,40 @@
                   </article>
                 </div>
                 <div class="cycle">
-                  <div class="cycle-node">ロボット派遣</div>
-                  <div class="cycle-node">現場データが貯まる</div>
-                  <div class="cycle-node">原価が下がる</div>
-                  <div class="cycle-node">介入ログを学習し<br />自律率が上がる</div>
+                  <div class="flywheel-stage">
+                    <svg class="flywheel-ring" viewBox="0 0 860 670" aria-hidden="true">
+                      <defs>
+                        <marker id="fly-arrow" viewBox="0 0 12 12" markerWidth="8" markerHeight="8" refX="6" refY="6" orient="auto">
+                          <path d="M1 1.5 L10.5 6 L1 10.5 Z" fill="#17417c" />
+                        </marker>
+                      </defs>
+                      <g fill="none" stroke="#3d6f9e" stroke-width="9" stroke-linecap="round" marker-end="url(#fly-arrow)">
+                        <path d="M499.5 185.3 A148 148 0 0 1 552.7 233.2" />
+                        <path d="M552.7 398.8 A148 148 0 0 1 499.5 446.7" />
+                        <path d="M360.5 446.7 A148 148 0 0 1 299.3 385.5" />
+                        <path d="M299.3 246.5 A148 148 0 0 1 360.5 185.3" />
+                      </g>
+                    </svg>
+                    <div class="flywheel-core">
+                      <p>データが<br />蓄積される</p>
+                    </div>
+                    <p class="fly-step fly-1">
+                      <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="9" y="12" width="14" height="11" rx="2.5" stroke="currentColor" stroke-width="1.8"/><circle cx="13.5" cy="17" r="1.3" fill="currentColor"/><circle cx="18.5" cy="17" r="1.3" fill="currentColor"/><path d="M16 12V8.5M13.5 8.5h5M9 17.5H6.5M26 17.5h-3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                      <span>ロボット派遣</span>
+                    </p>
+                    <p class="fly-step fly-2">
+                      <svg viewBox="0 0 32 32" aria-hidden="true"><ellipse cx="15" cy="9" rx="7" ry="3" stroke="currentColor" stroke-width="1.8"/><path d="M8 9v8c0 1.7 3.1 3 7 3s7-1.3 7-3V9M8 13c0 1.7 3.1 3 7 3s7-1.3 7-3" stroke="currentColor" stroke-width="1.8"/><path d="M22 22.5l4.5 3.2-4.5 3.2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M26.2 25.7H19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                      <span>現場データが返る</span>
+                    </p>
+                    <p class="fly-step fly-3">
+                      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 23l7-8 4.5 4 8.5-10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 9h6v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                      <span>介入ログを学習<br />自律率が上がる</span>
+                    </p>
+                    <p class="fly-step fly-4">
+                      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M7 8l5.5 7 5.5-7M12.5 15v9M8.5 19h8M8.5 22.5h8" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M23 13v9M19.8 18.6 23 22l3.2-3.4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                      <span>原価が下がる</span>
+                    </p>
+                  </div>
                   <p class="cycle-caption">ハードは深圳から仕入れ、自社開発はソフトウェアとデータに集中する。競争優位を機体には置かない。</p>
                 </div>
               </div>
@@ -497,14 +737,20 @@
           </footer>
         </section>
 
-        <section class="slide">
+        <section class="slide slide-traction">
           <div class="slide-sheet">
             <header class="topbar"><span class="chap-no">05</span><span class="chap-name">ロードマップ</span><span class="chap-rule"></span></header>
-            <div class="body body-stack">
+            <div class="body traction-body">
               <h2 class="section-title">トラクション</h2>
-              <div class="statement">
-                <p>フィジカル AI としてのトラクションはまだない。</p>
-                <p>一方、別事業の SIer で年商 1 億円を作った実績がある。</p>
+              <div class="traction-pair">
+                <div class="traction-copy traction-copy-off">
+                  <span class="zabuton"><span>フィジカル AI としての</span></span>
+                  <span class="zabuton"><span>トラクションはまだない。</span></span>
+                </div>
+                <div class="traction-copy traction-copy-on">
+                  <span class="zabuton"><span>一方、別事業の SIer で</span></span>
+                  <span class="zabuton zabuton-lg"><span>年商 1 億円を作った実績がある。</span></span>
+                </div>
               </div>
             </div>
             <footer class="foot">
@@ -517,25 +763,63 @@
         <section class="slide">
           <div class="slide-sheet">
             <header class="topbar"><span class="chap-no">05</span><span class="chap-name">ロードマップ</span><span class="chap-rule"></span></header>
-            <div class="body">
+            <div class="body goal-body">
               <h2 class="section-title">売上目標</h2>
-              <p class="lead">売上 40 億円作れば<br />プライムに時価総額 1,000 億円で上がることができる。</p>
-              <div class="goal">
-                <table class="sheet-table">
-                  <thead><tr><th>時期</th><th>目標</th></tr></thead>
-                  <tbody>
-                    <tr><td>2027 年（直近 1 年）</td><td>顧客 10 社、ロボット 10 台稼働（売上約 0.2 億円）</td></tr>
-                    <tr><td>2030 年（6 期目）</td><td>ロボット約 625 体・顧客 6 社／売上約 12 億円<br />時価総額 300 億円でグロース上場</td></tr>
-                    <tr><td>2034 年（10 期目）</td><td>ロボット約 2,000 体・顧客 21 社／売上約 40 億円<br />時価総額 1,000 億円でプライム上場</td></tr>
-                  </tbody>
-                </table>
-                <div class="bars">
-                  <h3>ロボット稼働台数（体）</h3>
-                  <div class="bar-row">
-                    <div class="bar"><b>10</b><i style="--h:6%"></i><span>2027</span></div>
-                    <div class="bar"><b>625</b><i style="--h:31%"></i><span>2030</span></div>
-                    <div class="bar"><b>2,000</b><i style="--h:100%"></i><span>2034</span></div>
+              <p class="goal-lead">売上 40 億円で、プライムに時価総額 1,000 億円。</p>
+              <div class="roadmap">
+                <div class="sales-chart">
+                  <p class="chart-kicker">売上高の推移</p>
+                  <div class="chart-plot">
+                    <div class="chart-axis" aria-hidden="true">
+                      <span>40</span><span>30</span><span>20</span><span>10</span><span>0</span>
+                    </div>
+                    <div class="chart-area">
+                      <div class="chart-bars">
+                        <div class="chart-col"><b>0.2</b><i style="--h: 8%"></i></div>
+                        <div class="chart-col"><b>12</b><i style="--h: 30%"></i></div>
+                        <div class="chart-col chart-col-top"><b>40</b><i style="--h: 100%"></i></div>
+                      </div>
+                      <div class="chart-years"><span>2027</span><span>2030</span><span>2034</span></div>
+                    </div>
                   </div>
+                  <p class="chart-unit">億円</p>
+                </div>
+                <div class="road">
+                  <div class="road-band" aria-hidden="true">
+                    <svg class="road-edge" viewBox="0 0 100 100" preserveAspectRatio="none">
+                      <line x1="0" y1="80" x2="100" y2="4" vector-effect="non-scaling-stroke" />
+                    </svg>
+                  </div>
+                  <article class="mile mile-27">
+                    <p class="mile-year">2027</p>
+                    <p class="mile-name">稼働を始める</p>
+                    <p class="mile-sub">直近 1 年</p>
+                    <ul class="mile-chips">
+                      <li><strong>10</strong><span>体</span></li>
+                      <li><strong>10</strong><span>社</span></li>
+                      <li><strong>0.2</strong><span>億円</span></li>
+                    </ul>
+                  </article>
+                  <article class="mile mile-30">
+                    <p class="mile-year">2030</p>
+                    <p class="mile-name">グロース上場</p>
+                    <p class="mile-sub">6 期目・時価総額 300 億円</p>
+                    <ul class="mile-chips">
+                      <li><strong>625</strong><span>体</span></li>
+                      <li><strong>6</strong><span>社</span></li>
+                      <li><strong>12</strong><span>億円</span></li>
+                    </ul>
+                  </article>
+                  <article class="mile mile-34">
+                    <p class="mile-year">2034</p>
+                    <p class="mile-name">プライム上場</p>
+                    <p class="mile-sub">10 期目・時価総額 1,000 億円</p>
+                    <ul class="mile-chips">
+                      <li><strong>2,000</strong><span>体</span></li>
+                      <li><strong>21</strong><span>社</span></li>
+                      <li><strong>40</strong><span>億円</span></li>
+                    </ul>
+                  </article>
                 </div>
               </div>
               <p class="note">※すべて時給 1,000 円（1 体あたり年 192 万円）で計算。1 社 = 20 拠点 × 5 体 = 100 体。</p>
@@ -550,28 +834,42 @@
         <section class="slide">
           <div class="slide-sheet">
             <header class="topbar"><span class="chap-no">05</span><span class="chap-name">ロードマップ</span><span class="chap-rule"></span></header>
-            <div class="body">
+            <div class="body funds-body">
               <h2 class="section-title">資金用途</h2>
-              <div class="funds">
-                <div>
-                  <div class="stat-row">
-                    <article class="stat"><span>バリュエーション</span><strong>3 億円</strong><em>（要相談）</em></article>
-                    <article class="stat"><span>調達額</span><strong>3,000 万円</strong><em>VC 2,000 万円 + エンジェル 1,000 万円</em></article>
-                  </div>
-                  <div class="use-list">
-                    <div class="use-item"><span>資金使途</span><strong>フォークリフト／ロボットの仕入れ</strong><em>1 台あたり 500 万〜1,000 万円。深圳から調達。</em></div>
-                    <div class="use-item"><span>資金使途</span><strong>Go-to-Market 費用</strong><em>展示会出展費、展示用コンテナ・フォークリフトのセッティング、開発費。</em></div>
-                    <div class="use-item"><span>資金使途</span><strong>リスティングは自社運用</strong><em>そのため最大の投資対象は展示会。</em></div>
-                  </div>
+              <div class="fund-stage">
+                <div class="fund-ring" role="img" aria-label="VC 2,000万円、エンジェル 1,000万円"></div>
+                <p class="fund-caption">集めた資金は、機体の仕入れと<br />展示会に充てる。<br />リスティングは自社で運用する。</p>
+                <p class="ring-tag ring-vc"><b>VC</b><span>2,000<em>万円</em></span></p>
+                <p class="ring-tag ring-angel"><b>エンジェル</b><span>1,000<em>万円</em></span></p>
+                <div class="fund-hub">
+                  <p class="hub-kicker">調達額</p>
+                  <p class="hub-fig"><strong>3,000</strong><span>万円</span></p>
+                  <p class="hub-note">エンジェルは 1口 200万円 × 5名<br />バリュエーション 3億円（要相談）</p>
                 </div>
-                <div class="donut-wrap">
-                  <p class="navy-kicker">調達額 3,000 万円の内訳</p>
-                  <div class="donut" role="img" aria-label="VC 2,000万円、エンジェル 1,000万円"></div>
-                  <div class="legend">
-                    <span><i class="swatch-vc"></i>VC 2,000 万円</span>
-                    <span><i class="swatch-angel"></i>エンジェル（1口 200 万円 × 5 名）</span>
+                <article class="use use-buy">
+                  <div class="use-head">
+                    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 22V9h13v13H5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M18 13h7l3 4v5h-10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="10" cy="24.5" r="2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="23" cy="24.5" r="2" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+                    <p class="use-kicker">仕入れ</p>
                   </div>
-                </div>
+                  <h3>フォークリフト／ロボットの仕入れ</h3>
+                  <p>1台あたり 500万〜1,000万円。深圳から調達。</p>
+                </article>
+                <article class="use use-gtm">
+                  <div class="use-head">
+                    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M9 26V7h11l-2.2 5.2L20 17H9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 26h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                    <p class="use-kicker">Go-to-Market</p>
+                  </div>
+                  <h3>展示会と開発</h3>
+                  <p>出展費、展示用コンテナ・フォークリフトの<br />セッティング、開発費。</p>
+                </article>
+                <article class="use use-own">
+                  <div class="use-head">
+                    <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="6" width="24" height="15" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 26h8M16 21v5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+                    <p class="use-kicker">自社運用</p>
+                  </div>
+                  <h3>リスティングは自社運用</h3>
+                  <p>そのため最大の投資対象は展示会。</p>
+                </article>
               </div>
             </div>
             <footer class="foot">
@@ -584,17 +882,35 @@
         <section class="slide">
           <div class="slide-sheet">
             <header class="topbar"><span class="chap-no">05</span><span class="chap-name">ロードマップ</span><span class="chap-rule"></span></header>
-            <div class="body">
+            <div class="body timeline-body">
               <h2 class="section-title">PMF検証スケジュール</h2>
-              <p class="sublead">9 月〜 1 月：受注 1 件と初デリバリーまでを最短で回す</p>
-              <div class="timeline">
-                <article class="tl"><b>01　9 月後半</b><p>ロボットをアームと台車で組み立てる。エンジェル投資家と壁打ち。</p></article>
-                <article class="tl"><b>03　10 月後半</b><p>深圳に行く。ひたすら商談。投資家とディスカッションを開始。</p></article>
-                <article class="tl"><b>05　12 月</b><p>受注し、自分とロボットでデリバリーする。なんとしても成果を出す。</p></article>
-                <div class="tl-line"></div>
-                <article class="tl"><b>02　10 月前半</b><p>フォークリフトの免許を取得。ロボット台車を作る。</p></article>
-                <article class="tl"><b>04　11 月</b><p>実務経験を積んだ現場に「ロボットを持って行っていいか」と再提案。フォークリフトの実務経験を積み、LPで検証を始める。1件受注し、深圳でAGFを150万円で仕入れ、独占契約を打診する。</p></article>
-                <article class="tl"><b>06　2026 年 1 月</b><p>複数現場へ投入する資金を確保する。投資家リスト250社に当たり、着金させる。ロボットを一気に仕入れて高速展開し、複数拠点のデリバリーに向けフォークリフト経験者を採用する。</p></article>
+              <p class="sublead">11 月〜 3 月：受注 1 件と初デリバリーまでを最短で回す</p>
+              <div class="pmf">
+                <div class="pmf-axis" aria-hidden="true"></div>
+                <article class="pmf-item is-up">
+                  <div class="pmf-slot"><div class="pmf-card"><b class="pmf-when"><span class="pmf-num">11</span><small>月後半</small></b><p>ロボットをアームと台車で組み立てる。エンジェル投資家と壁打ち。</p></div><i class="pmf-stem"></i></div>
+                  <i class="pmf-dot"></i>
+                </article>
+                <article class="pmf-item is-down">
+                  <div class="pmf-slot"><i class="pmf-stem"></i><div class="pmf-card"><b class="pmf-when"><span class="pmf-num">12</span><small>月前半</small></b><p>フォークリフトの免許を取得。ロボット台車を作る。</p></div></div>
+                  <i class="pmf-dot"></i>
+                </article>
+                <article class="pmf-item is-up">
+                  <div class="pmf-slot"><div class="pmf-card"><b class="pmf-when"><span class="pmf-num">12</span><small>月後半</small></b><p>深圳に行く。ひたすら商談。投資家とディスカッションを開始。</p></div><i class="pmf-stem"></i></div>
+                  <i class="pmf-dot"></i>
+                </article>
+                <article class="pmf-item is-down is-wide">
+                  <div class="pmf-slot"><i class="pmf-stem"></i><div class="pmf-card"><b class="pmf-when"><span class="pmf-year">2027年</span><span class="pmf-num">1</span><small>月</small></b><p>実務経験を積んだ現場に「ロボットを持って行っていいか」と再提案。フォークリフトの実務経験を積み、LPで検証を始める。1件受注し、深圳でAGFを150万円で仕入れ、独占契約を打診する。</p></div></div>
+                  <i class="pmf-dot"></i>
+                </article>
+                <article class="pmf-item is-up">
+                  <div class="pmf-slot"><div class="pmf-card"><b class="pmf-when"><span class="pmf-year">2027年</span><span class="pmf-num">2</span><small>月</small></b><p>受注し、自分とロボットでデリバリーする。なんとしても成果を出す。</p></div><i class="pmf-stem"></i></div>
+                  <i class="pmf-dot"></i>
+                </article>
+                <article class="pmf-item is-down is-wide">
+                  <div class="pmf-slot"><i class="pmf-stem"></i><div class="pmf-card"><b class="pmf-when"><span class="pmf-year">2027年</span><span class="pmf-num">3</span><small>月</small></b><p>複数現場へ投入する資金を確保する。投資家リスト250社に当たり、着金させる。ロボットを一気に仕入れて高速展開し、複数拠点のデリバリーに向けフォークリフト経験者を採用する。</p></div></div>
+                  <i class="pmf-dot"></i>
+                </article>
               </div>
             </div>
             <footer class="foot">
@@ -621,19 +937,19 @@
         <section class="slide">
           <div class="slide-sheet">
             <header class="topbar"><span class="chap-no">06</span><span class="chap-name">Q &amp; A</span><span class="chap-rule"></span></header>
-            <div class="body">
+            <div class="body qa-body">
               <div class="qa">
                 <article>
-                  <h3><span>Q</span>なぜ山田がやるのか？</h3>
-                  <p>2020年からベンチャーキャピタルに身を置き、SaaS・Web3・AIと業界の変遷を一貫して見てきました。自身もVC、宇宙スタートアップ、Webエンジニア、SIerと事業側を経験しています。累計100億円を調達したElevationSpaceの創業メンバーとして、業界の最先端にいた経験があります。</p>
+                  <div class="qa-row qa-q"><span class="qa-mark">Q</span><h3>なぜ山田がやるのか？</h3></div>
+                  <div class="qa-row qa-a"><span class="qa-mark">A</span><p>2020年からベンチャーキャピタルに身を置き、SaaS・Web3・AIと業界の変遷を一貫して見てきました。自身もVC、宇宙スタートアップ、Webエンジニア、SIerと事業側を経験しています。累計100億円を調達したElevationSpaceの創業メンバーとして、業界の最先端にいた経験があります。</p></div>
                 </article>
                 <article>
-                  <h3><span>Q</span>ロボットの仕入れはどうするのか？</h3>
-                  <p>深圳から仕入れる方針です。機種は未確定で、10月末の深圳の展示会で選定してきます。</p>
+                  <div class="qa-row qa-q"><span class="qa-mark">Q</span><h3>ロボットの仕入れはどうするのか？</h3></div>
+                  <div class="qa-row qa-a"><span class="qa-mark">A</span><p>深圳から仕入れる方針です。機種は未確定で、10月末の深圳の展示会で選定してきます。</p></div>
                 </article>
                 <article>
-                  <h3><span>Q</span>フォークリフトの免許はどうするのか？</h3>
-                  <p>普通免許があれば5日間・3〜4万円で取得できます。10月末に取得予定です。</p>
+                  <div class="qa-row qa-q"><span class="qa-mark">Q</span><h3>フォークリフトの免許はどうするのか？</h3></div>
+                  <div class="qa-row qa-a"><span class="qa-mark">A</span><p>普通免許があれば5日間・3〜4万円で取得できます。10月末に取得予定です。</p></div>
                 </article>
               </div>
             </div>
@@ -647,19 +963,19 @@
         <section class="slide">
           <div class="slide-sheet">
             <header class="topbar"><span class="chap-no">06</span><span class="chap-name">Q &amp; A</span><span class="chap-rule"></span></header>
-            <div class="body">
+            <div class="body qa-body">
               <div class="qa">
                 <article>
-                  <h3><span>Q</span>国内にフィジカル AI の競合はいないのか？</h3>
-                  <p>います。ただし各社2〜3千万円のロボット販売モデルで、導入できる現場が限られます。当社は時給課金のため導入が容易です。加えて国内市場が2,000億円あるため、SaaSやSIと同様、競合の数より市場の大きさが効きます。</p>
+                  <div class="qa-row qa-q"><span class="qa-mark">Q</span><h3>国内にフィジカル AI の競合はいないのか？</h3></div>
+                  <div class="qa-row qa-a"><span class="qa-mark">A</span><p>います。ただし各社2〜3千万円のロボット販売モデルで、導入できる現場が限られます。当社は時給課金のため導入が容易です。加えて国内市場が2,000億円あるため、SaaSやSIと同様、競合の数より市場の大きさが効きます。</p></div>
                 </article>
                 <article>
-                  <h3><span>Q</span>ロボットも物流もバックグラウンドがありませんが、大丈夫か？</h3>
-                  <p>問題ありません。タイミーの小川氏、サイバーエージェントの藤田氏、堀江氏など、必ずしも領域のバックグラウンドを持たずに数千億規模を作った起業家は多くいます。効くのは時代を読む力です。</p>
+                  <div class="qa-row qa-q"><span class="qa-mark">Q</span><h3>ロボットも物流もバックグラウンドがありませんが、大丈夫か？</h3></div>
+                  <div class="qa-row qa-a"><span class="qa-mark">A</span><p>問題ありません。タイミーの小川氏、サイバーエージェントの藤田氏、堀江氏など、必ずしも領域のバックグラウンドを持たずに数千億規模を作った起業家は多くいます。効くのは時代を読む力です。</p></div>
                 </article>
                 <article>
-                  <h3><span>Q</span>SIer 事業からの大ピボットになりませんか？</h3>
-                  <p>PLの作り方も商売の本質も同じです。本質は「顧客を開けること」であり、それ以外は後からどうにでもなります。</p>
+                  <div class="qa-row qa-q"><span class="qa-mark">Q</span><h3>SIer 事業からの大ピボットになりませんか？</h3></div>
+                  <div class="qa-row qa-a"><span class="qa-mark">A</span><p>PLの作り方も商売の本質も同じです。本質は「顧客を開けること」であり、それ以外は後からどうにでもなります。</p></div>
                 </article>
               </div>
             </div>
@@ -669,12 +985,24 @@
             </footer>
           </div>
         </section>
+
+        <section class="slide slide-dark">
+          <div class="cover-bg"></div>
+          <div class="end-brand">
+            <div class="end-word" role="img" aria-label="ORGAI"></div>
+            <p>株式会社オーガイ</p>
+          </div>
+          <p class="cover-legal">
+            © 2026 ORGAI Prohibition of copying<br />
+            without permission / prohibition of assignment.
+          </p>
+        </section>
       </div>
     </main>
     <nav class="chrome" aria-label="スライド操作">
       <div class="chrome-bar">
         <button type="button" data-prev>← 前へ</button>
-        <span class="counter" data-counter>1 / 25</span>
+        <span class="counter" data-counter>1 / 26</span>
         <button type="button" data-next>次へ →</button>
       </div>
     </nav>

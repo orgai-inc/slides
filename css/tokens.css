@@ -10,5 +10,6 @@
   --line: rgba(23, 65, 124, 0.35);
   --card: #ffffff;
   --serif: "Times New Roman", Times, serif;
+  --mincho: "Shippori Mincho", "Hiragino Mincho ProN", "Yu Mincho", serif;
   --sans: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", sans-serif;
 }
